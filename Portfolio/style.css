@@ -1,0 +1,19 @@
+.indexfile {
+    color: crimson;
+}
+
+a {
+    animation-fill-mode: forwards;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.pagename {
+    font-style: italic;
+}
+
+.pagename {
+    font-size: 3cm;
+}
