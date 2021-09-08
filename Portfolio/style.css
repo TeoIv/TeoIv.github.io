@@ -1,19 +1,45 @@
-.indexfile {
-    color: crimson;
-}
-
-a {
-    animation-fill-mode: forwards;
-}
-
-body {
-    background-color: darkgrey;
-}
-
-.pagename {
-    font-style: italic;
-}
-
-.pagename {
-    font-size: 3cm;
-}
+        .indexfile {
+            color: crimson;
+        }
+        
+        a {
+            animation-fill-mode: forwards;
+        }
+        
+        body {
+            background-color: darkgrey;
+        }
+        
+        .pagename {
+            font-style: italic;
+        }
+        
+        .pagename {
+            font-size: 3cm;
+        }
+        
+        .nav {
+            background-color: black;
+            overflow: hidden;
+        }
+        
+        .nav a {
+            float: left;
+            color: #f7f7f7;
+            text-align: center;
+            padding: 15px 17px;
+            display: block;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .nav a:hover {
+            background-color: #DCDCDC;
+            color: black;
+            transition: 0.7s;
+        }
+        
+        .nav a.active {
+            background-color: #3CB371;
+            color: white;
+        }
