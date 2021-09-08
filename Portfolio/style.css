@@ -1,45 +1,103 @@
-        .indexfile {
-            color: crimson;
-        }
-        
-        a {
-            animation-fill-mode: forwards;
-        }
-        
-        body {
-            background-color: darkgrey;
-        }
-        
-        .pagename {
-            font-style: italic;
-        }
-        
-        .pagename {
-            font-size: 3cm;
-        }
-        
-        .nav {
-            background-color: black;
-            overflow: hidden;
-        }
-        
-        .nav a {
-            float: left;
-            color: #f7f7f7;
-            text-align: center;
-            padding: 15px 17px;
-            display: block;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        
-        .nav a:hover {
-            background-color: #DCDCDC;
-            color: black;
-            transition: 0.7s;
-        }
-        
-        .nav a.active {
-            background-color: #3CB371;
-            color: white;
-        }
+/*general styiling*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* side bar styiling*/
+
+.aside {
+    float: left;
+    background-color: #3CB371;
+    width: 240px;
+}
+
+.aside ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+/* background styling*/
+
+.home {
+    display: flex;
+    background: url(assets/croped.gif) center;
+    width: 100%;
+    background-size: cover;
+    float: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #f7f7f7;
+    min-height: 500px;
+    background-attachment: fixed;
+}
+
+
+/* nav bar styling*/
+
+.navbar {
+    position: fixed;
+    padding: 15px 0;
+    width: 100%;
+    background: rgb(85, 85, 85);
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .name a {
+    color: #f7f7f7;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .nav li a {
+    color: #f7f7f7;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40 px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: rgb(73, 148, 73);
+    font-weight: 500;
+}
