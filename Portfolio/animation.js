@@ -1,9 +1,10 @@
-$(document).ready(function)() {
-    $(window).scroll(function)() {
+$(document).ready(function() {
+    $(window).scroll(function() {
+        // sticky navbar on scroll
         if (this.scrollY > 20) {
-            $('.navbar').addClass("sticky")
+            $('.navbar').addClass("sticky");
         } else {
-
+            $('.navbar').removeClass("sticky");
         }
-    }
-}
+    });
+});
