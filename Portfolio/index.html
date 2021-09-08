@@ -2,16 +2,22 @@
 <html lang="en">
 
 <head>
-    <header>
-        <div class="nav">
-            <a class="active" href="index.html">Home</a>
-            <a href="profile.html">Profile</a>
-            <a href="dashboard.html">Dashboard</a>
-            <a href="blogmain.html">Blog</a>
-            <a href="faq.html">FAQ</a>
-            <a href="contacts.html">Contacts</a>
+    <!-- Navigation bar and name on top left corner on all pages-->
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="name"><a href="#">Teodor <span>Ivanov</span></a></div>
+            <ul class="nav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="blogmain.html">Blog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+
         </div>
-    </header>
+    </nav>
     <title>Index</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,6 +28,30 @@
 </head>
 
 <body>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+
+                <!-- Aside section with links -->
+                <aside class="aside">
+                    <ul>
+                        <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">Github</a></li>
+                        <li><a href="https://learn.hz.nl/my/" target="_blank">Learn</a></li>
+                        <li><a href="https://teams.microsoft.com/_?culture=en-us&country=US&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/General?threadId=19:2e2afa0286b04932be16cb8ad2d9d2c0@thread.skype&ctx=channel" target="_blank">Teams</a></li>
+                        <li><a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target="_blank">Studyprogress</a></li>
+                        <li><a href="https://hz.nl/uploads/documents/Regelingen/OERS/2021-2022/11.-Uitvoeringsregeling-OER-ICT-Voltijd-2021-2022.pdf" target="_blank">Implementation Regulations</a></li>
+                        <li><a href="https://hz.nl/uploads/documents/Regelingen/OERS/2021-2022/HZ-Onderwijs-en-Examenregeling-2021-2022.pdf" target="_blank">Education Regulations</a></li>
+                    </ul>
+                </aside>
+                <div class="text-1"> Hello my name is </div>
+                <div class="text-2"> Teodor Ivanov </div>
+                <div class="text-3"> And I'm a student at <span> HZ Univerity of Applied Sciences </span> and I think that the study programme combines my interests in Web-Development, Software development and data science. The modules in computer science and game development
+                    are two of the many things that i concider challenging for me, but who doesnt love a challenge. </div>
+            </div>
+
+        </div>
+    </section>
+
 
 
 </body>
