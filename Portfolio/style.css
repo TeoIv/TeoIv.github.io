@@ -26,6 +26,7 @@
 /* background styling*/
 
 .home {
+    transition: ease 0.5s;
     display: flex;
     background: url(assets/croped.gif) center;
     width: 100%;
@@ -146,6 +147,7 @@
 /*blogpage styiling*/
 
 .bphoto1 {
+    transition: ease 0.5s;
     display: flex;
     background: url(assets/blog-main.jpg) center;
     width: 100%;
