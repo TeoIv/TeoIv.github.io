@@ -138,3 +138,22 @@
     width: 300px;
     height: 500px;
 }
+
+.bphoto1 {
+    display: flex;
+    background: url(assets/blog-main.jpg) center;
+    width: 100%;
+    background-size: cover;
+    float: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #f7f7f7;
+    min-height: 500px;
+    background-attachment: fixed;
+}
+
+.active {
+    color: #000;
+    background-color: #3CB371;
+    padding: 6px;
+}
