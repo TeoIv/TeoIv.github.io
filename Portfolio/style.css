@@ -93,6 +93,9 @@
     color: #3CB371;
 }
 
+
+/* index.html main content styling*/
+
 .home .max-width {
     margin: auto 0 auto 40px;
 }
@@ -139,6 +142,9 @@
     height: 500px;
 }
 
+
+/*blogpage styiling*/
+
 .bphoto1 {
     display: flex;
     background: url(assets/blog-main.jpg) center;
@@ -151,6 +157,9 @@
     min-height: 500px;
     background-attachment: fixed;
 }
+
+
+/*navbar active page*/
 
 .active {
     color: #000;
