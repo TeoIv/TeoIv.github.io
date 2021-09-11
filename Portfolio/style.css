@@ -246,3 +246,59 @@
 .post6 {
     margin-top: 100px;
 }
+
+.postback {
+    transition: ease 0.5s;
+    display: flex;
+    background: url(assets/blog-main.jpg) center;
+    width: 100%;
+    background-size: cover;
+    float: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 500px;
+    background-attachment: fixed;
+}
+
+.article1 {
+    float: left;
+    height: fit-content;
+    margin-top: 8%;
+    margin-left: 4%;
+    color: blanchedalmond;
+    width: 33%;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.post1 p {
+    width: 450px;
+}
+
+.article1 h2 {
+    color: rgb(85, 85, 85);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.blogbody a {
+    text-decoration: none;
+}
+
+.article2 {
+    float: left;
+    height: fit-content;
+    margin-top: 8%;
+    margin-left: 4%;
+    color: blanchedalmond;
+    width: 33%;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: oblique;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.post6 p {
+    width: 450px;
+}
