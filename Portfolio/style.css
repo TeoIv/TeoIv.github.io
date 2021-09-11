@@ -156,35 +156,93 @@
 
 /*blogpage styiling*/
 
-.bloghead {
+.blogbody {
     background-color: silver;
-    height: 300px;
+}
+
+.bloghead {
+    display: flex;
+    height: 200px;
+    padding-top: 100px;
 }
 
 .blogtext-1 {
+    padding-left: 200px;
+    font-size: 40px;
+    margin-left: 100px;
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blogtext-2 {
+    padding-left: 50px;
+    font-size: 40px;
+    margin-left: 40px;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blogtext-3 {
+    padding-left: 50px;
     font-size: 40px;
     margin-left: 20px;
+    padding-top: 20px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .firstline {
     color: rgb(73, 148, 73);
     font-weight: 600;
     font-size: 75px;
-    margin-top: 10px;
-    margin-left: 3px;
+    margin-left: 70px;
+    padding-bottom: 10px;
 }
 
 .firstline .blogg {
     color: #f7f7f7;
 }
 
+.blogautor {
+    width: fit-content;
+}
+
 .blogimage {
-    height: 320px;
-    width: 220px;
+    height: 270px;
+    width: 210px;
 }
 
 .moreabout {
     text-decoration: none;
     font-style: italic;
     font-size: 13px;
+}
+
+.leftcol {
+    float: left;
+    width: 25%;
+    background-color: #6aaf89;
+    margin-left: 2%;
+}
+
+.midcol {
+    margin: 10px 5px 5px 4%;
+    float: left;
+    width: 50%;
+}
+
+.rightcol {
+    float: left;
+    width: 18%;
+    padding-left: 20px;
+    background-color: silver;
+}
+
+.post1ph {
+    height: 300px;
+    width: 450px;
+}
+
+.post6 {
+    margin-top: 100px;
 }
