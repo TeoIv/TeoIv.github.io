@@ -44,14 +44,14 @@
 
 .navbar {
     position: fixed;
-    padding: 30px 0;
+    padding: 20px 0;
     width: 100%;
     background: rgb(85, 85, 85);
 }
 
 .max-width {
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 60px;
     margin: auto;
 }
 
@@ -87,6 +87,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: color 0.3s ease;
 }
 
@@ -144,27 +145,46 @@
 }
 
 
-/*blogpage styiling*/
-
-.bphoto1 {
-    transition: ease 0.5s;
-    display: flex;
-    background: url(assets/blog-main.jpg) center;
-    width: 100%;
-    background-size: cover;
-    float: left;
-    background-repeat: no-repeat;
-    height: 100vh;
-    color: #f7f7f7;
-    min-height: 500px;
-    background-attachment: fixed;
-}
-
-
 /*navbar active page*/
 
 .active {
     color: #000;
     background-color: #3CB371;
-    padding: 6px;
+    padding: 12px 14px;
+}
+
+
+/*blogpage styiling*/
+
+.bloghead {
+    background-color: silver;
+    height: 300px;
+}
+
+.blogtext-1 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.firstline {
+    color: rgb(73, 148, 73);
+    font-weight: 600;
+    font-size: 75px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.firstline .blogg {
+    color: #f7f7f7;
+}
+
+.blogimage {
+    height: 320px;
+    width: 220px;
+}
+
+.moreabout {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 13px;
 }
