@@ -221,7 +221,6 @@
 .leftcol {
     float: left;
     width: 25%;
-    background-color: #6aaf89;
     margin-left: 2%;
 }
 
@@ -238,12 +237,48 @@
     background-color: silver;
 }
 
-.post1ph {
+.post1 img {
+    height: 300px;
+    width: 450px;
+}
+
+.post2 img {
+    height: 300px;
+    width: 450px;
+}
+
+.post3 img {
+    height: 300px;
+    width: 450px;
+}
+
+.post4 img {
+    height: 300px;
+    width: 450px;
+}
+
+.post5 img {
     height: 300px;
     width: 450px;
 }
 
 .post6 {
+    margin-top: 100px;
+}
+
+.post5 {
+    margin-top: 100px;
+}
+
+.post4 {
+    margin-top: 100px;
+}
+
+.post3 {
+    margin-top: 100px;
+}
+
+.post2 {
     margin-top: 100px;
 }
 
@@ -276,6 +311,26 @@
     width: 450px;
 }
 
+.post2 p {
+    width: 450px;
+}
+
+.post3 p {
+    width: 450px;
+}
+
+.post4 p {
+    width: 450px;
+}
+
+.post5 p {
+    width: 450px;
+}
+
+.post6 p {
+    width: 450px;
+}
+
 .article1 h2 {
     color: rgb(85, 85, 85);
     font-weight: 800;
@@ -297,10 +352,6 @@
     font-weight: 500;
     font-style: oblique;
     background-color: rgba(0, 0, 0, .5);
-}
-
-.post6 p {
-    width: 450px;
 }
 
 .article2 {
@@ -332,6 +383,19 @@
     float: left;
     height: fit-content;
     margin-top: 8%;
+    margin-left: 4%;
+    color: blanchedalmond;
+    width: 33%;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: oblique;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.article5 {
+    float: left;
+    height: fit-content;
+    margin-top: 9%;
     margin-left: 4%;
     color: blanchedalmond;
     width: 33%;
