@@ -52,7 +52,6 @@
 .max-width {
     max-width: 1300px;
     padding: 0 60px;
-    margin: auto;
 }
 
 .navbar .max-width {
@@ -403,4 +402,10 @@
     font-weight: 500;
     font-style: oblique;
     background-color: rgba(0, 0, 0, .5);
+}
+
+.dashboardtable {
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
 }
