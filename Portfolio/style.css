@@ -484,3 +484,7 @@
     border-style: solid;
     margin-top: 70px;
 }
+
+.taken {
+    background-color: rgb(157, 231, 157);
+}
