@@ -43,7 +43,7 @@ html {
 /* nav bar styling*/
 
 .navbar {
-    display: flex;
+    display: grid;
     grid-column-start: 1;
     grid-column-end: 14;
     grid-row-start: 1;
@@ -100,6 +100,12 @@ html {
     color: #3CB371;
 }
 
+.active {
+    color: #000;
+    background-color: #3CB371;
+    padding: 12px 14px;
+}
+
 
 /* index.html main content styling*/
 
@@ -128,12 +134,29 @@ html {
 }
 
 
-/*navbar active page*/
+/*FAQ Page styiling*/
 
-.active {
-    color: #000;
+.faqheader {
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 4;
     background-color: #3CB371;
-    padding: 12px 14px;
+    opacity: 0.7;
+    color: white;
+}
+
+.faqheader p {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.faqheader p span {
+    font-size: 75px;
+    font-weight: 600;
+    color: black;
 }
 
 
@@ -200,10 +223,10 @@ html {
 }
 
 .leftcol {
-    float: left;
-    width: 25%;
-    margin-left: 2%;
-    margin-top: 5%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
     border: rgb(85, 85, 85);
     border-style: solid;
     border-left: none;
