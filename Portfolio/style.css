@@ -23,6 +23,9 @@ html {
 }
 
 
+/* Footer */
+
+
 /* background styling*/
 
 .home {
@@ -104,33 +107,6 @@ html {
     color: #000;
     background-color: #3CB371;
     padding: 12px 14px;
-}
-
-
-/* index.html main content styling*/
-
-.home .max-width {
-    margin: auto 0 auto 40px;
-}
-
-.home .home-content .text-1 {
-    font-size: 27px;
-}
-
-.home .home-content .text-2 {
-    font-size: 75px;
-    font-weight: 600;
-    margin-left: 3px;
-}
-
-.home .home-content .text-3 {
-    font-size: 40px;
-    margin: 5px 0;
-}
-
-.home .home-content .text-3 span {
-    color: rgb(73, 148, 73);
-    font-weight: 500;
 }
 
 
@@ -240,6 +216,153 @@ html {
     font-size: 20px;
     margin: 0 0 5px;
     padding: 15px 15px;
+}
+
+
+/* Home Page styiling */
+
+
+/* BACKGROUND */
+
+.containerhome {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 80px repeat(13, 1fr 40px) 80px;
+}
+
+.containerhome .logo {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: url(assets/whitelogo2.png);
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+
+.containerhome .backgroundfade {
+    height: 100vh;
+    opacity: 0.5;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(to bottom, #3CB371, #285f3869);
+    z-index: -2;
+}
+
+
+/* CONTENT*/
+
+.containerhome .motivating {
+    grid-column-start: 3;
+    grid-column-end: 15;
+    grid-row-start: 14;
+    grid-row-end: 30;
+}
+
+.containerhome .motivating img {
+    padding-left: 100px;
+    width: 130px;
+    height: 90px;
+}
+
+.motivating {
+    display: inline-block;
+    width: 140px;
+    height: 90px;
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    position: relative;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+
+.motivating .iconhome {
+    margin-left: -100px;
+}
+
+.motivating:hover {
+    width: 270px;
+    height: 220px;
+    position: relative;
+    background: black;
+    z-index: 999;
+    opacity: 0.7;
+}
+
+.motivating .iconhome:hover .motivating {
+    width: 312px;
+}
+
+.motivating p {
+    padding: 15px 15px;
+}
+
+.expect {
+    grid-column-start: 10;
+    grid-row-start: 15;
+    grid-column-end: 15;
+    grid-row-end: 28;
+}
+
+.expect {
+    border-style: inset;
+    box-shadow: 0px 0px 15px 2px black;
+    text-align: left;
+    display: inline-block;
+    width: 310px;
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 5px;
+    border-radius: 50%;
+    z-index: 999;
+    text-align: center;
+    white-space: nowrap;
+    color: black;
+    position: relative;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+
+.iconexpect {
+    height: 100px;
+    width: 100px;
+}
+
+.expect:hover {
+    width: 302px;
+    height: 200px;
+    position: relative;
+    color: white;
+    background: black;
+    z-index: 999;
+    opacity: 0.6;
+}
+
+.expect .iconexpect:hover .expect {
+    width: 312px;
+}
+
+.expect li {
+    margin-bottom: 3px;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.expect h1 {
+    padding-left: 5px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.iconarrow {
+    padding-top: 3px;
+    padding-right: 10px;
 }
 
 
@@ -401,27 +524,27 @@ html {
     color: rgb(107, 185, 99);
 }
 
-.post1 {
+#post1 {
     padding-top: 15px;
 }
 
-.post2 {
+#post2 {
     padding-top: 80px;
 }
 
-.post3 {
+#post3 {
     padding-top: 80px;
 }
 
-.post4 {
+#post4 {
     padding-top: 80px;
 }
 
-.post5 {
+#post5 {
     padding-top: 80px;
 }
 
-.post6 {
+#post6 {
     padding-top: 80px;
 }
 
@@ -451,27 +574,27 @@ html {
     color: rgb(107, 185, 99);
 }
 
-.post1 img {
+#post1 img {
     height: 300px;
     width: 450px;
 }
 
-.post2 img {
+#post2 img {
     height: 300px;
     width: 450px;
 }
 
-.post3 img {
+#post3 img {
     height: 300px;
     width: 450px;
 }
 
-.post4 img {
+#post4 img {
     height: 300px;
     width: 450px;
 }
 
-.post5 img {
+#post5 img {
     height: 300px;
     width: 450px;
 }
@@ -625,7 +748,7 @@ html {
     border-bottom: none;
     border-right: none;
     width: 250px;
-    height: 800px;
+    height: 530px;
     float: left;
     text-align: left;
     padding-top: 280px;
@@ -633,7 +756,12 @@ html {
     margin-left: 80px;
 }
 
-.chartinfo {
+.chartlink {
+    float: left;
+    width: 200px;
+}
+
+#chartinfo {
     border-color: rgb(85, 85, 85);
     border-style: solid;
     border-top: none;
@@ -643,7 +771,7 @@ html {
     padding-right: 1%;
     padding-top: 8%;
     padding-left: 2%;
-    height: 600px;
+    height: 450px;
     margin-right: 20px;
     text-align: right;
     float: left;
@@ -964,7 +1092,7 @@ body {
     width: 52px;
     height: 52px;
     margin-left: -20px;
-    margin-top: 50px;
+    margin-top: 60px;
     z-index: 999;
     border-radius: 50%;
     text-align: center;
