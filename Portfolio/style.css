@@ -712,6 +712,7 @@ body {
     grid-column-end: 8;
     grid-row-start: 5;
     grid-row-end: 7;
+    z-index: 1000;
 }
 
 .profilephoto:hover .name {
@@ -740,8 +741,8 @@ body {
     height: 52px;
     border-radius: 50%;
     margin-bottom: -23px;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin-left: 15px;
+    margin-top: 50px;
     text-align: center;
     z-index: 999;
     white-space: nowrap;
@@ -754,12 +755,12 @@ body {
 
 .roundbutton1 .icon1 {
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .roundbutton1:hover {
-    width: 312px;
-    height: 224px;
+    width: 200px;
+    height: 280px;
     background: black;
     position: relative;
     opacity: 0.6;
@@ -788,8 +789,8 @@ body {
     display: inline-block;
     width: 52px;
     height: 52px;
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 0px;
+    margin-left: 5px;
     border-radius: 50%;
     z-index: 999;
     text-align: center;
@@ -838,8 +839,8 @@ body {
     width: 52px;
     z-index: 999;
     height: 52px;
-    margin-bottom: 25px;
-    margin-left: -15px;
+    margin-bottom: 35px;
+    margin-left: -20px;
     border-radius: 50%;
     text-align: center;
     position: relative;
@@ -884,8 +885,8 @@ body {
     grid-column-end: 13;
     grid-row-start: 5;
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 0px;
+    margin-left: 40px;
     z-index: 999;
     position: relative;
     width: 52px;
@@ -901,7 +902,7 @@ body {
 
 .roundbutton5:hover {
     width: 312px;
-    height: 224px;
+    height: 254px;
     background: black;
     position: relative;
     opacity: 0.6;
@@ -936,7 +937,7 @@ body {
     z-index: 999;
     border-radius: 50%;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-top: 40px;
     position: relative;
     white-space: nowrap;
@@ -962,8 +963,8 @@ body {
     display: inline-block;
     width: 52px;
     height: 52px;
-    margin-left: -15px;
-    margin-top: 6px;
+    margin-left: -20px;
+    margin-top: 50px;
     z-index: 999;
     border-radius: 50%;
     text-align: center;
