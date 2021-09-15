@@ -136,6 +136,9 @@ html {
 
 /*FAQ Page styiling*/
 
+
+/* Grid positioning and main characteristics are here */
+
 .faqheader {
     grid-column-start: 1;
     grid-column-end: 14;
@@ -157,6 +160,86 @@ html {
     font-size: 75px;
     font-weight: 600;
     color: black;
+}
+
+.maincontentfaq {
+    grid-column-start: 3;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end: 14;
+    font-size: 5px;
+    line-height: 1.4;
+}
+
+.maincontentfaq section {
+    background: #2d2f31;
+    opacity: 0.7;
+    color: white;
+}
+
+.maincontentfaq section {
+    margin: auto;
+}
+
+.maincontentfaq h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.maincontentfaq details[open] summary~* {
+    animation: open 0.5s ease-in-out;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.maincontentfaq details summary::-webkit-details-marker {
+    display: none;
+}
+
+.maincontentfaq details summary {
+    padding: 10px;
+    border: 1px solid #3CB371;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.maincontentfaq details summary:after {
+    content: "+";
+    color: white;
+    position: absolute;
+    margin-top: -25px;
+    font-size: 60px;
+    line-height: 0;
+    right: 0;
+    font-weight: 200;
+    transform-origin: center;
+    transition: 0.5s ease-in-out;
+}
+
+.maincontentfaq details[open] summary:after {
+    transition: 1s ease-in-out;
+    transform: rotate(45deg);
+    font-size: 60px;
+}
+
+.maincontentfaq details summary {
+    outline: 0;
+}
+
+.maincontentfaq details p {
+    font-size: 20px;
+    margin: 0 0 5px;
+    padding: 15px 15px;
 }
 
 
@@ -552,8 +635,15 @@ body {
     grid-column-end: 8;
     grid-row-start: 5;
     grid-row-end: 7;
-    z-index: 999;
-    position: relative;
+}
+
+.profilephoto:hover .name {
+    display: block;
+}
+
+.profilephoto:hover {
+    transition: 0.4s;
+    opacity: 0.7;
 }
 
 .profilephoto img {
