@@ -8,47 +8,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Scripts and added files -->
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
-    <!-- Navigation bar and name on top left corner on all pages-->
+    <div class="containerhome">
+        <!-- Navigation bar and name on top left corner on all pages-->
 
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="name"><a href="#">Teodor <span>Ivanov</span></a></div>
-            <ul class="nav">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <li><a href="blogmain.html">Blog</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <!-- Aside section with links -->
-                <aside class="aside">
-                    <ul>
-                        <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">Github</a></li>
-                        <li><a href="https://learn.hz.nl/my/" target="_blank">Learn</a></li>
-                        <li><a href="https://teams.microsoft.com/_?culture=en-us&country=US&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/General?threadId=19:2e2afa0286b04932be16cb8ad2d9d2c0@thread.skype&ctx=channel" target="_blank">Teams</a></li>
-                        <li><a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target="_blank">Studyprogress</a></li>
-                        <li><a href="https://hz.nl/uploads/documents/Regelingen/OERS/2021-2022/11.-Uitvoeringsregeling-OER-ICT-Voltijd-2021-2022.pdf" target="_blank">Implementation Regulations</a></li>
-                        <li><a href="https://hz.nl/uploads/documents/Regelingen/OERS/2021-2022/HZ-Onderwijs-en-Examenregeling-2021-2022.pdf" target="_blank">Education Regulations</a></li>
-                    </ul>
-                </aside>
-                <div class="text-1"> Hello my name is </div>
-                <div class="text-2"> Teodor Ivanov </div>
-                <div class="text-3"> And I'm a student at <span> HZ Univerity of Applied Sciences </span> and I think that the study programme combines my interests in Web-Development, Software development and data science. The modules in computer science and game development
-                    are two of the many things that i concider challenging for me, but who doesnt love a challenge. </div>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="name"><a href="#">Teodor <span>Ivanov</span></a></div>
+                <ul class="nav">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="blogmain.html">Blog</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
             </div>
+        </nav>
+        <div class="motivating">
+            <figure class="iconhome">
+                <a href="https://hz.nl/" target="_blank"><img src="assets/hz-logosite.svg" alt=""></a>
+            </figure>
+            <p>I am ready for the HBO - ICT programme, because I am always willing to improve.</p>
         </div>
-    </section>
+        <div class="expect">
+            <figure class="iconexpect">
+                <ul>
+                    <h1>What To Expect</h1>
+                    <li>
+                        <ion-icon class="iconarrow" name="arrow-forward-circle-outline"></ion-icon>A lot of effort</li>
+                    <li>
+                        <ion-icon class="iconarrow" name="arrow-forward-circle-outline"></ion-icon>Dedication</li>
+                    <li>
+                        <ion-icon class="iconarrow" name="arrow-forward-circle-outline"></ion-icon>Determination</li>
+                    <li>
+                        <ion-icon class="iconarrow" name="arrow-forward-circle-outline"></ion-icon>Fun Time</li>
+                </ul>
+            </figure>
+        </div>
+        <div class="logo"></div>
+        <div class="backgroundfade"></div>
+    </div>
     <script src="animation.js"></script>
 </body>
 
