@@ -23,9 +23,6 @@ html {
 }
 
 
-/* Footer */
-
-
 /* background styling*/
 
 .home {
@@ -103,8 +100,11 @@ html {
     color: #3CB371;
 }
 
+.navbar .nav .active:hover {
+    color: black;
+}
+
 .active {
-    color: #000;
     background-color: #3CB371;
     padding: 12px 14px;
 }
@@ -114,6 +114,33 @@ html {
 
 
 /* Grid positioning and main characteristics are here */
+
+.asidemenu {
+    margin-left: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 10;
+}
+
+.asidemenu section {
+    background: #2d2f31;
+    opacity: 0.7;
+    color: white;
+}
+
+.asidemenu h2 {
+    padding-top: 10px;
+}
+
+.asidemenu a {
+    font-size: 20px;
+    color: white;
+}
+
+.asidemenu li {
+    padding: 5px;
+}
 
 .faqheader {
     grid-column-start: 1;
@@ -228,6 +255,7 @@ html {
     margin: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: 80px repeat(13, 1fr 40px) 80px;
@@ -255,10 +283,208 @@ html {
 
 /* CONTENT*/
 
-.containerhome .motivating {
+.containerhome .contact1 {
     grid-column-start: 3;
-    grid-column-end: 15;
-    grid-row-start: 14;
+    grid-column-end: 10;
+    grid-row-start: 16;
+    grid-row-end: 30;
+}
+
+.contact1 a {
+    font-size: 40px;
+    display: block;
+    padding: 5px;
+}
+
+.contact1 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    position: relative;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+
+.contact1:hover {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    z-index: 999;
+}
+
+.containerhome .contact2 {
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 18;
+    grid-row-end: 30;
+}
+
+.contact2 a {
+    font-size: 40px;
+    display: block;
+    padding: 5px;
+}
+
+.contact2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    position: relative;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+
+.contact2:hover {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    z-index: 999;
+}
+
+.containerhome .contact3 {
+    grid-column-start: 3;
+    grid-column-end: 10;
+    grid-row-start: 20;
+    grid-row-end: 30;
+}
+
+.contact3 a {
+    font-size: 40px;
+    display: block;
+    padding: 5px;
+}
+
+.contact3 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    position: relative;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+
+.contact3:hover {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    z-index: 999;
+}
+
+.containerhome .contact4 {
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 22;
+    grid-row-end: 30;
+}
+
+.contact4 a {
+    font-size: 40px;
+    display: block;
+    padding: 5px;
+}
+
+.contact4 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    position: relative;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+
+.contact4:hover {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    z-index: 999;
+}
+
+.containerhome .contact5 {
+    grid-column-start: 3;
+    grid-column-end: 10;
+    grid-row-start: 24;
+    grid-row-end: 30;
+}
+
+.contact5 a {
+    font-size: 40px;
+    display: block;
+    padding: 5px;
+}
+
+.contact5 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    position: relative;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+
+.contact5:hover {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    z-index: 999;
+}
+
+.containerhome .contact6 {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 20;
+    grid-row-end: 30;
+}
+
+.contact6 a {
+    font-size: 40px;
+    display: block;
+    padding: 5px;
+}
+
+.contact6 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    position: relative;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+}
+
+.contact6:hover {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    z-index: 999;
+}
+
+.containerhome .motivating {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 6;
     grid-row-end: 30;
 }
 
@@ -287,7 +513,7 @@ html {
 
 .motivating:hover {
     width: 270px;
-    height: 220px;
+    height: 190px;
     position: relative;
     background: black;
     z-index: 999;
@@ -299,7 +525,7 @@ html {
 }
 
 .motivating p {
-    padding: 15px 15px;
+    padding-left: 8px;
 }
 
 .expect {
@@ -334,6 +560,7 @@ html {
 }
 
 .expect:hover {
+    display: block;
     width: 302px;
     height: 200px;
     position: relative;
@@ -722,81 +949,100 @@ html {
 }
 
 
-/*dashboard*/
+/*dashboard styling */
 
-.dashboardtable {
-    float: left;
-    margin-top: 100px;
-    width: 50%;
-    margin-left: 4%;
+.containerdashboard {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: 80px repeat( 5, 1fr 40px) 80px;
+}
+
+.containerdashboard .dashboardtable {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 7;
     background-color: silver;
+    width: 600px;
+    height: 450px;
 }
 
 .tablehead {
     background-color: #3CB371;
 }
 
-.hzlogodash {
-    padding-left: 2%;
-    width: 150px;
-}
-
-.infotable {
-    border-color: rgb(85, 85, 85);
-    border-style: solid;
-    border-top: none;
-    border-bottom: none;
-    border-right: none;
-    width: 250px;
-    height: 530px;
-    float: left;
-    text-align: left;
-    padding-top: 280px;
-    padding-left: 1%;
-    margin-left: 80px;
-}
-
-.chartlink {
-    float: left;
+.containerdashboard .infotable {
+    grid-column-start: 12;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 10;
+    padding-left: 10px;
+    padding-top: 150px;
     width: 200px;
+    text-align: left;
+    height: 540px;
+    border-left: rgb(85, 85, 85) solid;
 }
 
-#chartinfo {
-    border-color: rgb(85, 85, 85);
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
-    width: 24%;
-    padding-right: 1%;
-    padding-top: 8%;
-    padding-left: 2%;
-    height: 450px;
-    margin-right: 20px;
-    text-align: right;
-    float: left;
-}
-
-#curvechart {
-    float: right;
-    width: 70%;
-    height: 400px;
-    border-color: rgb(85, 85, 85);
-    border-style: solid;
-    margin-top: 70px;
+.containerdashboard .chartlink {
+    grid-column-start: 14;
+    grid-column-end: 18;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #2d2f31;
+    opacity: 0.8;
+    margin-top: 90px;
 }
 
 .taken {
-    background-color: rgb(157, 231, 157);
+    background: rgb(152, 218, 145);
 }
 
-.chartinfo p span {
-    color: rgb(221, 7, 7);
+#chartinfo span {
+    color: rgb(197, 4, 4);
 }
 
-.gradescale {
-    font-style: italic;
-    font-size: 10px;
+.containerdashboard .chartlink a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100px;
+    height: 30px;
+}
+
+.containerdashboard .chartlink a:hover {
+    color: #3CB371;
+}
+
+.containerdashboard .hzlogodash {
+    width: 150px;
+}
+
+.containerdashboard #curvechart {
+    grid-column-start: 8;
+    grid-column-end: 31;
+    grid-row-start: 9;
+    grid-row-end: 24;
+    z-index: 2;
+    width: 770px;
+    padding-right: 10px;
+    height: 300px;
+    border-color: rgb(85, 85, 85);
+    border-style: solid;
+}
+
+.containerdashboard #chartinfo {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 18;
+    padding-right: 10px;
+    border-right: rgb(85, 85, 85) solid;
+    height: 300px;
+    text-align: right;
 }
 
 
@@ -840,6 +1086,7 @@ body {
     grid-column-end: 8;
     grid-row-start: 5;
     grid-row-end: 7;
+    margin-left: -10px;
     z-index: 1000;
 }
 
@@ -857,23 +1104,23 @@ body {
     height: 200px;
     box-shadow: 0px 0px 10px 3px black;
     border-radius: 50%;
-    z-index: 999;
+    z-index: -1;
 }
 
 .roundbutton1 {
     text-align: left;
-    grid-column-start: 5;
-    grid-row-start: 7;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-end: 14;
+    grid-row-start: 8;
     display: inline-block;
+    margin-top: 20px;
+    margin-left: -45px;
     width: 52px;
     height: 52px;
     border-radius: 50%;
-    margin-bottom: -23px;
-    margin-left: 15px;
-    margin-top: 50px;
     text-align: center;
     z-index: 999;
-    white-space: nowrap;
     position: relative;
     color: white;
     transition: all 0.5s ease-out;
@@ -887,8 +1134,8 @@ body {
 }
 
 .roundbutton1:hover {
-    width: 200px;
-    height: 280px;
+    width: 450px;
+    height: 200px;
     background: black;
     position: relative;
     opacity: 0.6;
@@ -896,6 +1143,7 @@ body {
 }
 
 .roundbutton1 p {
+    padding: 5px 5px;
     display: block;
 }
 
@@ -907,22 +1155,20 @@ body {
 .roundbutton1 h4 {
     display: block;
     font-weight: bold;
-    padding-bottom: 10px;
 }
 
 .roundbutton2 {
     text-align: left;
-    grid-column-start: 5;
-    grid-row-start: 5;
-    display: inline-block;
+    grid-column-start: 8;
+    grid-column-end: 14;
+    grid-row-end: 14;
+    grid-row-start: 7;
+    display: block;
     width: 52px;
     height: 52px;
-    margin-top: 0px;
-    margin-left: 5px;
     border-radius: 50%;
     z-index: 999;
     text-align: center;
-    white-space: nowrap;
     color: white;
     position: relative;
     transition: all 0.5s ease-out;
@@ -960,19 +1206,17 @@ body {
 }
 
 .roundbutton4 {
-    grid-column-start: 7;
-    grid-column-end: 12;
-    grid-row-start: 4;
+    grid-column-start: 8;
+    grid-column-end: 14;
+    grid-row-start: 5;
+    grid-row-end: 9;
     display: inline-block;
     width: 52px;
     z-index: 999;
     height: 52px;
-    margin-bottom: 35px;
-    margin-left: -20px;
     border-radius: 50%;
     text-align: center;
     position: relative;
-    white-space: nowrap;
     color: white;
     transition: all 0.5s ease-out;
     overflow: hidden;
@@ -1009,19 +1253,19 @@ body {
 
 .roundbutton5 {
     text-align: center;
-    grid-column-start: 8;
-    grid-column-end: 13;
-    grid-row-start: 5;
+    grid-column-start: 7;
+    grid-column-end: 14;
+    grid-row-start: 4;
+    grid-row-end: 14;
     display: inline-block;
-    margin-top: 0px;
-    margin-left: 40px;
+    margin-left: -45px;
     z-index: 999;
     position: relative;
+    margin-top: -15px;
     width: 52px;
     height: 52px;
-    border-radius: 50%;
+    border-radius: 6%;
     text-align: center;
-    white-space: nowrap;
     color: white;
     transition: all 0.5s ease-out;
     overflow: hidden;
@@ -1029,15 +1273,26 @@ body {
 }
 
 .roundbutton5:hover {
-    width: 312px;
-    height: 254px;
+    width: 600px;
+    height: 480px;
     background: black;
     position: relative;
     opacity: 0.6;
     z-index: 999;
 }
 
+.profilecontent5 img {
+    float: left;
+    width: 150px;
+    height: 200px;
+    padding-left: 100px;
+    margin-bottom: 15px;
+}
+
 .roundbutton5 p {
+    padding-left: 210px;
+    padding-right: 60px;
+    line-height: 1cm;
     display: block;
 }
 
@@ -1046,29 +1301,31 @@ body {
 }
 
 .roundbutton5 h4 {
+    padding-left: 185px;
+    padding-right: 100px;
     display: block;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    justify-content: space-between;
 }
 
 .roundbutton5 .icon5 {
     padding-top: 10px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
 }
 
 .roundbutton6 {
-    grid-column-start: 8;
-    grid-row-start: 7;
+    grid-column-start: 5;
+    grid-row-start: 5;
     display: inline-block;
     width: 52px;
     height: 52px;
     z-index: 999;
     border-radius: 50%;
     text-align: center;
-    margin-left: 40px;
-    margin-top: 40px;
     position: relative;
-    white-space: nowrap;
     color: white;
     transition: all 0.5s ease-out;
     overflow: hidden;
@@ -1081,18 +1338,22 @@ body {
     z-index: 999;
 }
 
+.roundbutton6:hover a {
+    color: white;
+}
+
 .roundbutton6 .icon6 {
     padding-top: 10px;
 }
 
 .roundbutton3 {
-    grid-column-start: 7;
-    grid-row-start: 8;
+    grid-column-start: 5;
+    grid-row-start: 7;
+    grid-row-end: 14;
+    grid-column-end: 10;
     display: inline-block;
     width: 52px;
     height: 52px;
-    margin-left: -20px;
-    margin-top: 60px;
     z-index: 999;
     border-radius: 50%;
     text-align: center;
@@ -1134,4 +1395,64 @@ body {
 .roundbutton3 .icon3 {
     padding-top: 10px;
     padding-bottom: 5px;
+}
+
+
+/* GALLERY */
+
+.openphoto {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.openphoto img {
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 5%;
+}
+
+.openphoto:target {
+    display: block;
+    outline: none;
+}
+
+.photosection {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.photosection ul li {
+    list-style-type: "\1F44D";
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+}
+
+.photosection img {
+    max-width: 100%;
+}
+
+.photosection .img1 {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 640px) {
+    ul li {
+        width: 100%;
+        float: none;
+        margin: 5px 0;
+        text-align: center;
+    }
+    img {
+        margin: 5px 0;
+        text-align: center;
+        width: 90%;
+    }
 }
