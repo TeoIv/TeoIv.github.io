@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../../assets/styling/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>
+
+<body>
+    <div class="containerdashboard">
+        <!-- Navigation bar and name on top left corner on all pages-->
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="name"><a href="index.html">Teodor <span>Ivanov</span></a></div>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                    <li><a href="blogmain.html">Blog</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="backgroundfade"></div>
+        <div class="dashboardtable">
+            <table class="dashboardtable">
+                <thead class="tablehead">
+                    <tr>
+                        <th colspan=" 6">
+                            <p> Exams Table for the </p>
+                            <p> propaedeutic phase </p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody style="text-align: center;">
+                    <tr>
+                        <th>Quartile</th>
+                        <th>Course</th>
+                        <th> EXAM </th>
+                        <th>Credits</th>
+                        <th>Credits obtained</th>
+                        <th>Grade
+                            <p class="gradescale">On a scale to 10</p>
+                        </th>
+                    </tr>
+                    <tr class="taken">
+                        <th rowspan="7" style="background-color: silver;">1</th>
+                        <th></th>
+                        <th>Who am I</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>10.0</th>
+                    </tr>
+                    <tr>
+                        <th>Program- & Career Orientation</th>
+                        <th>Assessment</th>
+                        <th>2.5</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Computer Science Basics</th>
+                        <th>Written</th>
+                        <th>5</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Programming Basics</th>
+                        <th>Case study</th>
+                        <th>5</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Personal Professional Development: Exploration</th>
+                        <th>Criterium focused assessment based on portfolio</th>
+                        <th>12.5</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>IT Personality Projectweek 1</th>
+                        <th rowspan="2">Report</th>
+                        <th rowspan="2">1.25</th>
+                        <th rowspan="2"></th>
+                        <th rowspan="2"></th>
+                    </tr>
+                    <tr>
+                        <th>IT Personality 1</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">2</th>
+                        <th rowspan="2">Object-oriented programming</th>
+                        <th>Project</th>
+                        <th rowspan="2">10</th>
+                        <th rowspan="2"></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Case study</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th rowspan="4">3</th>
+                        <th>Framework development 1</th>
+                        <th>case study</th>
+                        <th>5</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Framework Project 1</th>
+                        <th>Project</th>
+                        <th rowspan="3">7.5</th>
+                        <th rowspan="3"></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Assessment</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Report</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th rowspan="6">4</th>
+                        <th rowspan="3">Framework project 2</th>
+                        <th>Portfolio</th>
+                        <th rowspan="3">10</th>
+                        <th rowspan="3"></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Project</th>
+                        <th></th>
+
+                    </tr>
+                    <tr>
+                        <th>Assessment</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>IT Personality International week</th>
+                        <th rowspan="2">Report</th>
+                        <th rowspan="2">1.25</th>
+                        <th rowspan="2"></th>
+                        <th rowspan="2"></th>
+                    </tr>
+                    <tr>
+                        <th>IT Personality 2 </th>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </div>
+        <div class="infotable">
+            <img src="../../assets/photos/hzbestone1.png" class="hzlogodash" alt="">
+            <p>This table shows which courses and exams I will attend this first year in the HZ university.</p>
+
+        </div>
+        <div id="chartinfo">
+            <img src="../../assets/photos/hzbestone1.png" class="hzlogodash" alt="">
+            <p>The line chart on the right displays the relationship between Credits and the NBSA Boundary. The minimum of credits for continuing to the second year of education in the ICT programme is 45, otherwise the <span>NBSA</span> zone begins.</p>
+        </div>
+        <div id="curvechart"></div>
+        <script type="text/javascript"></script>
+        <script src="../../assets/styling/animation.js"></script>
+    </div>
+
+</body>
+
+</html>
