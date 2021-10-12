@@ -696,7 +696,7 @@ h4 {
 }
 
 .containerdashboard .infotable {
-    grid-column: 12/18;
+    grid-column: 14/18;
     grid-row: 4/13;
     width: 200px;
     padding-left: 20px;
