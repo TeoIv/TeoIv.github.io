@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Battle of the HTML Tags</title>
+    <link rel="stylesheet" href="../../assets/styling/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body class="postback">
+    <!-- Navigation bar and name on top left corner on all pages-->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="name"><a href="index.html">Teodor <span>Ivanov</span></a></div>
+            <ul class="nav">
+                <li><a href="../mainpages/index.html">Home</a></li>
+                <li><a href="../mainpages/profile.html">Profile</a></li>
+                <li><a href="../mainpages/dashboard.html">Dashboard</a></li>
+                <li><a class="active" href="../mainpages/blogmain.html">Blog</a></li>
+                <li><a href="../mainpages/faq.html">FAQ</a></li>
+                <li><a href="../mainpages/gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="backbutton">
+        <a href="../mainpages/blogmain.html">
+            <h3>Back</h3>
+        </a>
+    </div>
+    <article class="article">
+        <h2>The Battle of the HTML Tags</h2>
+        <h3>Article vs Section</h3>
+        <h4>By Teodor Ivanov</h4>
+        <h5>Sep 7, 2021</h5>
+        <section>
+            <p>The different opinions on this topic led me on a journey to find wether the Article or the Section tag is “bigger” in a HTML structure. As I discovered the discussion is taking already years in forums and different sources around the internet.
+                ( I found one written in 2011 ) But I think that the article of Bruce Lawson from Jan 7, 2020 is very helpful so I will refer to him about the meaning of these tags and the point he has. </p>
+            <p>Bruce Lawson / Jan7, 2020 /</p>
+            <p>“Browsers’ visual display of headings nested inside Section elements makes it look as if they are assigning a logical hierarchy to those headings. However, this is purely visual and is not communicated to assistive technologies. What use is Section,
+                and how should authors mark up headings that are hugely important to AT users? A few days ago, I was having a chat with some friends, one of whom asked me the difference between Article and Section in HTML. This is one of the eternal mysteries
+                of web development, up there with “why is it white-space: nowrap, not white-space: no-wrap?” and “why is CSS ‘gray’ a darker color than ‘darkgray’?”. I gave my usual answer: think of Article not just as a newspaper article, or a blog post,
+                but as an article of clothing — a discrete entity that can be reused in another context. So your trousers are an article, and you can wear them with a different outfit; your shirt is an article, and can be worn with different trousers;
+                your knee-length patent leather stiletto boots are an article (you wouldn’t wear just one of them, would you?)”</p>
+            <details>
+                <summary>Anyway the article</summary>
+                <p>is very long but just reading it was an experience for me, but during his build up for the meaning of the html tags I managed to learn a ton of new things. Anyway lets not distance ourselves from the main topic. In conclusion its said
+                    that Section can be used with aria-label to signal to a screen reader user where a particular sub-part of an article begins and ends. And Article isn’t just for blog posts - its for any self-contained thing.</p>
+            </details>
+        </section>
+    </article>
+    <script src="assets/styling/animation.js"></script>
+</body>
+
+</html>
