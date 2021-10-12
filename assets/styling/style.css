@@ -735,6 +735,17 @@ h4 {
     text-align: right;
 }
 
+.updated {
+    grid-column: 14/18;
+    grid-row: 9/10;
+    margin-left: -50px;
+    margin-top: -20px;
+    opacity: 0.6;
+    border-left: rgb(70, 66, 66) solid;
+    height: 20px;
+    padding-left: 15px;
+}
+
 
 /* Profile page styling*/
 
