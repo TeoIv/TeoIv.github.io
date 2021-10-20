@@ -20,7 +20,7 @@ function drawChart() {
     var data = google.visualization.arrayToDataTable([
         ['Month', 'Credits', 'NBSA boundary'],
         ['Sep', 0, 45],
-        ['Oct', , 45],
+        ['Oct', 2.5, 45],
         ['Nov', , 45],
         ['Dec', , 45],
         ['Jan', , 45],
